@@ -16,7 +16,7 @@ export default class SortingVisualizer extends Component {
 
   resetArray() {
     const array = [];
-    for (let i = 0; i < 190; ++i) {
+    for (let i = 0; i < 140; ++i) {
       array.push(randomIntFromInterval(5, 550));
     }
     this.setState({ array });
