@@ -5,8 +5,48 @@
 }
 
 .array-bar {
-  width: 4px;
-  background-color: rgb(86, 120, 153);
+  width: 5px;
+  background-color: rgb(84, 116, 150);
   display: inline-block;
   margin: 0 1px;
+}
+
+button {
+  border-radius: 7px;
+  color: white;
+  font-size: 1.3rem;
+  padding: 6px 10px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  /* box-shadow: 5px 5px 5px rgb(190, 190, 190); */
+  /* background-color: rgb(40, 69, 78); */
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  align-content: center;
+  margin: auto;
+}
+.start-button {
+  background-color: rgba(47, 146, 27, 0.904);
+  color: white;
+}
+.start-button:hover {
+  background-color: rgb(21, 63, 13);
+  cursor: pointer;
+}
+
+.generate-button {
+  background-color: rgb(109, 40, 40);
+  color: white;
+}
+.generate-button:hover {
+  background-color: rgb(63, 23, 23);
+  cursor: pointer;
+}
+
+.running-button {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.running-button:hover {
+  cursor: not-allowed;
 }
