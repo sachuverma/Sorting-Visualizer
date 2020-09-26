@@ -10,6 +10,10 @@ Then the array can be sorted using the soring buttons.
 
 _`Currently only merge sort is implement. Other algorithms will be implemented in future`_
 
+## MERGE SORT:
+
+![1-Merge Sort](demo/merge_sort.gif)
+
 ---
 
 ---
