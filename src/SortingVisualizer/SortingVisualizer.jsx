@@ -23,7 +23,7 @@ export default class SortingVisualizer extends Component {
   }
 
   mergeSort() {
-    const allSortButtons = document.getElementsByClassName("start-button");
+    // const allSortButtons = document.getElementsByClassName("start-button");
     // for (let i = 0; i < allSortButtons.length; ++i) {
     //   allSortButtons[i].classList.add("running-button");
     // }
