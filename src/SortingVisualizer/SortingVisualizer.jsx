@@ -51,9 +51,15 @@ export default class SortingVisualizer extends Component {
     }
   }
 
-  quickSort() {}
-  heapSort() {}
-  bubbleSort() {}
+  quickSort() {
+    alert("OOPS! currently not available");
+  }
+  heapSort() {
+    alert("OOPS! currently not available");
+  }
+  bubbleSort() {
+    alert("OOPS! currently not available");
+  }
 
   render() {
     const { array } = this.state;
